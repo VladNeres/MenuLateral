@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'outfit',sans-serif;
+}
+/* 
+.header-box{
+    width: 940px;
+    height: 100px;
+    background-color: azure;
+    position: relative;
+    margin-left: 300px;
+    ;
+}
+#titulo{
+    color: blueviolet;
+    text-align: center;
+}
+.menu-principal {
+position: absolute;
+list-style-type: none;
+padding:5px;
+top:50px;
+left: 0px;
+}
+
+.menu-principal  li{
+    display: inline-block;
+    padding:5px;
+   
+}
+
+.menu-principal li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-principal li:hover ul{
+    display: block;
+}
+
+/* submenu */
+/* .sub-menu {
+    display:none;
+    position:absolute;
+    width: 135px;
+    background-color: blueviolet;
+    margin:auto;
+}
+
+.sub-menu li{
+    display: block;
+}
+
+.sub-menu li a:hover{
+    color:red;
+}  */
+
+/* menu lateral */
+body{
+   height: 100vh;
+   position:relative;
+}
+nav.menu-lateral{
+        width: 45px;
+        height:100%;
+        background-color: #202020;
+        padding:40px, 0, 40px, 1%;
+        margin-top: 0;
+       box-shadow: 3px 0 0 #FF0077;
+       position: fixed;
+       top:0;
+       left:0;
+       overflow:hidden;
+       transition:.2s;
+        
+}
+nav.menu-lateral:hover{
+width:300px
+}
+.btn-expandir{
+    width:100%;
+    padding-left: 10px;
+}
+
+.btn-expandir >i{
+    color:white;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+.lista-lateral{
+    height: 100%;
+    list-style-type: none;   
+}
+
+.lista-lateral li:hover{
+    background-color: #FF0077;
+}
+.lista-lateral li{
+    transition: .2s;
+}
+.lista-lateral li.item-menu a{
+color:white;
+text-decoration: none;
+padding:20px 4%;
+display:flex;
+margin-bottom: 20px;
+line-height: 40px;
+}
+
+.lista-lateral li.item-menu a .txt-link{
+margin-left: 40px;
+}
+
+.lista-lateral li.item-menu a  .icons i {
+    font-size: 30px;
+}
